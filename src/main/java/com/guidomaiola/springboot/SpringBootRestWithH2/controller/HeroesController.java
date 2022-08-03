@@ -1,4 +1,4 @@
-package com.iamvickyav.springboot.SpringBootRestWithH2.controller;
+package com.guidomaiola.springboot.SpringBootRestWithH2.controller;
 
 import java.util.List;
 
@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.iamvickyav.springboot.SpringBootRestWithH2.model.Hero;
-import com.iamvickyav.springboot.SpringBootRestWithH2.service.HeroesService;
+import com.guidomaiola.springboot.SpringBootRestWithH2.model.Hero;
+import com.guidomaiola.springboot.SpringBootRestWithH2.service.HeroesService;
 
 @RestController
 public class HeroesController {
@@ -22,6 +22,11 @@ public class HeroesController {
 	@RequestMapping(value = "/hero/{id}", method = RequestMethod.GET)
     Hero getHero(@PathVariable Integer id){
         return  heroesServicel.findById(id);
+    }
+
+	@RequestMapping(value = "/hero/name/like/{nameLike}", method = RequestMethod.GET)
+    List<Hero> getHeroesByNameLike(@PathVariable String nameLike){
+        return  heroesServicel.findByNameLike(nameLike);
     }
 
     @RequestMapping(value = "/hero", method = RequestMethod.POST)

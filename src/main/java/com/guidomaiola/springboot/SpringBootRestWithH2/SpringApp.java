@@ -1,4 +1,4 @@
-package com.iamvickyav.springboot.SpringBootRestWithH2;
+package com.guidomaiola.springboot.SpringBootRestWithH2;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -8,5 +8,6 @@ public class SpringApp {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringApp.class, args);
+		
 	}
 }

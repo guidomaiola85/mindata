@@ -17,7 +17,7 @@ spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.H2Dialect
 This single interface will do all the magic for you
 
 ```
-public interface EmployeeService extends JpaRepository<Employee, Integer>{
+public interface HeroService extends JpaRepository<Hero, Integer>{
 }
 ```
 
