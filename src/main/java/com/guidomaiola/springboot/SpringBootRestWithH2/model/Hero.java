@@ -9,6 +9,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -16,17 +17,12 @@ import lombok.Setter;
 
 @Entity
 @Builder
-@NoArgsConstructor
 @Getter
 @Setter
+@NoArgsConstructor
+@AllArgsConstructor
 @Table(name = "hero")
 public class Hero {
-
-	public Hero(Integer id, String name) {
-		super();
-		this.id = id;
-		this.name = name;
-	}
 
 	@Id
     @Column(name = "id", nullable = false)
