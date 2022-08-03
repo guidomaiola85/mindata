@@ -16,6 +16,7 @@ import org.mockito.junit.MockitoJUnitRunner;
 import com.guidomaiola.springboot.SpringBootRestWithH2.model.Hero;
 import com.guidomaiola.springboot.SpringBootRestWithH2.repository.HeroesRepository;
 import com.guidomaiola.springboot.SpringBootRestWithH2.service.HeroesService;
+import com.guidomaiola.springboot.SpringBootRestWithH2.utils.HeroesUtils;
 
 @RunWith(MockitoJUnitRunner.class)
 public class HeroesServiceTest {

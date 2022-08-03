@@ -23,6 +23,7 @@ import org.springframework.test.web.servlet.MockMvc;
 import com.guidomaiola.springboot.SpringBootRestWithH2.controller.HeroesController;
 import com.guidomaiola.springboot.SpringBootRestWithH2.model.Hero;
 import com.guidomaiola.springboot.SpringBootRestWithH2.service.HeroesService;
+import com.guidomaiola.springboot.SpringBootRestWithH2.utils.HeroesUtils;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @WebMvcTest(HeroesController.class)
