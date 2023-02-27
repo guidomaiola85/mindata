@@ -1,4 +1,4 @@
-FROM openjdk:8-jre-slim
+FROM FROM openjdk:11
 WORKDIR /home
 COPY /target/spring-h2-demo.jar spring-h2-demo.jar
 EXPOSE 8080

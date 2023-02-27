@@ -1,6 +1,6 @@
-# Spring-boot-data-H2-embedded
+# Mindata - Springboot data JPA with H2-embedded
 
-In this app, I used H2 in-memory database for demo purpose
+H2 in-memory database for demo purpose
 
 **Application.properties**
 
@@ -14,12 +14,6 @@ spring.jpa.hibernate.ddl-auto=none
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.H2Dialect
 ```
 
-This single interface will do all the magic for you
-
-```
-public interface EmployeeService extends JpaRepository<Employee, Integer>{
-}
-```
 
 **To Run without Docker**
 

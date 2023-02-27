@@ -1,0 +1,207 @@
+{
+	"id": "81648ac7-5988-1cf1-35cb-ba2e2cfa41ae",
+	"name": "Mindata",
+	"description": "",
+	"order": [
+		"fe4404e6-80b6-8a9b-4aee-9412af92bfe5",
+		"54ae743c-4909-e79d-1ed0-ebcb7bc7202e",
+		"af4ba4cb-db49-4e6c-6c8a-350d0f732838",
+		"62f830dc-c526-23fd-39b0-6cbd043c169b",
+		"3fe47cdb-770b-f198-eb42-2a1ac2556117"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1659381217078,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "3fe47cdb-770b-f198-eb42-2a1ac2556117",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/hero/name/like/MAN",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1659381323677,
+			"name": "GET HERO BY NAME LIKE MAN",
+			"description": "",
+			"collectionId": "81648ac7-5988-1cf1-35cb-ba2e2cfa41ae",
+			"responses": [
+				{
+					"status": "",
+					"responseCode": {
+						"code": 200,
+						"name": "OK",
+						"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+					},
+					"time": 31,
+					"headers": [
+						{
+							"name": "connection",
+							"key": "connection",
+							"value": "keep-alive",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Mon, 01 Aug 2022 19:14:56 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "keep-alive",
+							"key": "keep-alive",
+							"value": "timeout=60",
+							"description": "Custom header"
+						},
+						{
+							"name": "transfer-encoding",
+							"key": "transfer-encoding",
+							"value": "chunked",
+							"description": "The form of encoding used to safely transfer the entity to the user. Currently defined methods are: chunked, compress, deflate, gzip, identity."
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "[{\"id\":3,\"name\":\"AQUAMAN\"},{\"id\":4,\"name\":\"SUPERMAN\"},{\"id\":5,\"name\":\"BATMAN\"}]",
+					"language": "json",
+					"rawDataType": "text",
+					"previewType": "text",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"name": "GET HERO BY NAME LIKE MAN",
+					"id": "8ec611b0-9682-7c91-cf87-2e8c008f561a",
+					"request": {
+						"url": "http://localhost:8080/hero/name/like/MAN",
+						"pathVariables": {},
+						"pathVariableData": [],
+						"queryParams": [],
+						"headerData": [],
+						"headers": "",
+						"data": null,
+						"method": "GET",
+						"dataMode": "params"
+					}
+				}
+			]
+		},
+		{
+			"id": "54ae743c-4909-e79d-1ed0-ebcb7bc7202e",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/hero/name/HO",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "81648ac7-5988-1cf1-35cb-ba2e2cfa41ae",
+			"data": null,
+			"dataMode": "params",
+			"name": "GET HERO BY NAME LIKE",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1659381244629,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "62f830dc-c526-23fd-39b0-6cbd043c169b",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/hero/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "81648ac7-5988-1cf1-35cb-ba2e2cfa41ae",
+			"data": null,
+			"dataMode": "params",
+			"name": "GET HERO BY ID",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1659381275721,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "af4ba4cb-db49-4e6c-6c8a-350d0f732838",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/hero",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "81648ac7-5988-1cf1-35cb-ba2e2cfa41ae",
+			"data": null,
+			"dataMode": "params",
+			"name": "GET ALL HEROES",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1659381260765,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "fe4404e6-80b6-8a9b-4aee-9412af92bfe5",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/hero",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "81648ac7-5988-1cf1-35cb-ba2e2cfa41ae",
+			"data": [],
+			"dataMode": "raw",
+			"name": "POST HERO",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1659381223905,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n    \"name\": \"BATMAN\"\n}"
+		}
+	]
+}
